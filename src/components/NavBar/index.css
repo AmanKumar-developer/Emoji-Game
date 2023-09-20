@@ -1,0 +1,38 @@
+/* Write your code here. */
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+.title-with-logo-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  flex-basis: 80%;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+}
+.logo-image {
+  width: 24px;
+}
+.title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+}
+.score-container {
+  display: flex;
+}
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 7px;
+  font-weight: bold;
+  margin-top: 30px;
+}
